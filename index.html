@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Dialog</title>
+</head>
+<body>
+  <div class="overlay">  
+    <header>
+      <p class='paragraph'>Select, then change text strings</p>
+    </header>
+      <div class="modal">
+            <h1 class="modal__title">Are you sure?</h1>
+             <p class="modal__text">All your changes will be deleted and you will no longer be able to access them.</p>
+              <div class="modal__container-buttons">
+                <button class="modal__button">Cancel</button>
+                <button class="modal__button">Hide Me</button>
+                <button class="modal__button--active">Yes, I'm sure</button>
+              </div> 
+      </div>
+      <footer>
+        <button class="button-footer">Hide Me</button>
+        <img src="./image/arrow.png" class="image-footer" alt="Arrow"></img>
+        <p class="paragraph-footer">Hide Layer</p>
+      </footer>            
+  </div>          
+</body> 
+</html>
